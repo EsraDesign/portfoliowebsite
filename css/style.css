@@ -1,0 +1,17 @@
+img {
+    display: block;
+    max-width: 100%;
+}
+
+video{
+    display: block;
+    max-width: 100%;
+}
+
+.rounded_box {
+    background-color: rgb(51, 51, 51);
+    color: rgb(242, 242, 242);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
