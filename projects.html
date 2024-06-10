@@ -5,16 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@200;300;400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <style>
+      .arrow-down {
+        transform: rotate(45deg);
+      }
+    </style>
     <title>Document</title>
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">home</a></li>
-          <li><a href="aboutme.html">om mig</a></li>
-        </ul>
-      </nav>
+      <div class="rounded-box-2">
+        <nav>
+          <ul class="ul-nav">
+            <div class="rounded-box-3">
+              <li>
+                <i class="fas fa-arrow-up arrow-down"></i>
+                <a href="index.html">home</a>
+              </li>
+            </div>
+            <div class="rounded-box-3">
+              <li>
+                <i class="fas fa-arrow-up arrow-down"></i>
+                <a href="projects.html">projekter</a>
+              </li>
+            </div>
+            <div class="rounded-box-3">
+              <li>
+                <i class="fas fa-arrow-up arrow-down"></i>
+                <a href="aboutme.html">om mig</a>
+              </li>
+            </div>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
       <div class="section">
@@ -102,7 +133,7 @@
       <!-- .section end -->
       <div class="section">
         <div class="section-heading">
-          <h2 class="heading -2">03 Grundlæggende UX/UI</h2>
+          <h2 class="heading -h2">03 Grundlæggende UX/UI</h2>
         </div>
         <div class="content-grid">
           <div class="content-cell">
@@ -227,28 +258,10 @@
       </div>
       <!-- .section end -->
       <div class="section">
-        <h1>04 Grundlæggende Animation</h1>
-        <div class="content-grid-4">
-          <div class="rounded-box">
-            <h2>Opgavens fokus:</h2>
-            <p>
-              I dette tema jeg blev introduceret til programmeringssproget
-              javascript, som kan bruges til at kode dynamiske websites. Jeg
-              brugt javascript sammen med css animationer, til at skabe et lille
-              spil. Mit spil skal have et koncept og en ide, som jeg selv finder
-              frem til og du skal selv designe alle elementer og kode spillet
-              helt fra bunden. Jeg begyndt at arbejde professionelt med
-              formgivning af grafiske elementer. Vi analyserede spildesign og
-              ser på hvordan man engagerer brugerne gennem teori og konventioner
-              inden for UI-elementer, figurelementer, baggrundsdesign og
-              kompositionsteknikker. Jeg udviklede mit eget spildesign efter
-              moderne konventioner og rentegnede grafikken til spillet i Adobe
-              Illustrator. Gennem arbejdet med mit eget spil lært jeg at arbejde
-              med aktivitets- og statemachine- diagrammer, som bruges til at
-              planlægge det mere komplicerede interaktive flow.
-            </p>
-          </div>
-
+        <div class="section-heading">
+          <h2 class="heading -h2">04 Grundlæggende Animation</h2>
+        </div>
+        <div class="content-grid-3">
           <div class="content-cell">
             <img src="images/tema4.1.png" alt="" />
           </div>
@@ -259,52 +272,66 @@
             <img src="images/tema4.3.png" alt="" />
           </div>
         </div>
+        <div class="rounded-box">
+          <h3>Opgavens fokus:</h3>
+          <p>
+            I dette tema jeg blev introduceret til programmeringssproget
+            javascript, som kan bruges til at kode dynamiske websites. Jeg brugt
+            javascript sammen med css animationer, til at skabe et lille spil.
+            Mit spil skal have et koncept og en ide, som jeg selv finder frem
+            til og du skal selv designe alle elementer og kode spillet helt fra
+            bunden. Jeg begyndt at arbejde professionelt med formgivning af
+            grafiske elementer. Vi analyserede spildesign og ser på hvordan man
+            engagerer brugerne gennem teori og konventioner inden for
+            UI-elementer, figurelementer, baggrundsdesign og
+            kompositionsteknikker. Jeg udviklede mit eget spildesign efter
+            moderne konventioner og rentegnede grafikken til spillet i Adobe
+            Illustrator. Gennem arbejdet med mit eget spil lært jeg at arbejde
+            med aktivitets- og statemachine- diagrammer, som bruges til at
+            planlægge det mere komplicerede interaktive flow.
+          </p>
+        </div>
         <div class="content">
           <img src="images/tema4.4.png" alt="" />
         </div>
-        <div class="content-grid">
-          <div class="rounded-box">
-            <h3>Hvad jeg lærte:</h3>
-            <ul>
-              <li>
-                Digitale udvekslingsformater, hvor vi arbejder med filtyper som
-                *.svg, *.wav, og *.mp3.
-              </li>
-              <li>
-                Frontend-teknologier, herunder CSS, JavaScript og Illustrator
-                samt Chrome/Firefox Inspector (Consol & Animation)
-              </li>
-              <li>
-                Digitale medier, indholdstyper og udtryksformer, herunder
-                formgivnings- og kompositionsprincipper, design af UI og
-                spil-elementer samt baggrundsdesign, atmosfærisk perspektiv,
-                linjer, kontraster, focal point og rule of thirds.
-              </li>
-              <li>
-                Skitseringsteknikker og ide-genereringsteknikker, paper
-                prototype, moodboards og StyleTile. Viden om spildesign,
-                herunder figur-elementer, UI-elementer, start- og slutskærme
-                samt baggrundsdesign.
-              </li>
-              <li>
-                CSS positionering, CSS animation samt introduktion til
-                JavaScript, herunder funktioner, metoder (addClass/removeClass),
-                variabler, events (load, click, animationend,
-                animationiteration), betingelser (if-else) og math.random.
-              </li>
-            </ul>
-          </div>
-
-          <div class="content-cell">
-            <img src="images/tema4.5.png" alt="" />
-          </div>
+        <div class="rounded-box">
+          <h3>Hvad jeg lærte:</h3>
+          <ul>
+            <li>
+              Digitale udvekslingsformater, hvor vi arbejder med filtyper som
+              *.svg, *.wav, og *.mp3.
+            </li>
+            <li>
+              Frontend-teknologier, herunder CSS, JavaScript og Illustrator samt
+              Chrome/Firefox Inspector (Consol & Animation)
+            </li>
+            <li>
+              Digitale medier, indholdstyper og udtryksformer, herunder
+              formgivnings- og kompositionsprincipper, design af UI og
+              spil-elementer samt baggrundsdesign, atmosfærisk perspektiv,
+              linjer, kontraster, focal point og rule of thirds.
+            </li>
+            <li>
+              Skitseringsteknikker og ide-genereringsteknikker, paper prototype,
+              moodboards og StyleTile. Viden om spildesign, herunder
+              figur-elementer, UI-elementer, start- og slutskærme samt
+              baggrundsdesign.
+            </li>
+            <li>
+              CSS positionering, CSS animation samt introduktion til JavaScript,
+              herunder funktioner, metoder (addClass/removeClass), variabler,
+              events (load, click, animationend, animationiteration),
+              betingelser (if-else) og math.random.
+            </li>
+          </ul>
         </div>
+
         <div class="content">
           <img src="images/tema4.6.png" alt="" />
         </div>
         <div class="content-grid">
           <div class="rounded-box">
-            <h2>Min løsning:</h2>
+            <h3>Min løsning:</h3>
             <a
               href="http://127.0.0.1:5500/1.semester/tema04_animation/website/index.html"
               >Tema04 website</a
@@ -326,7 +353,7 @@
             </ul>
           </div>
           <div class="rounded-box">
-            <h2>Min Proces:</h2>
+            <h3>Min Proces:</h3>
             <p>
               Jeg udviklede en hjemmeside med et spil ved at anvende en række
               digitale værktøjer og teknologier. Først skitserede jeg ideer og
@@ -349,13 +376,15 @@
       </div>
       <!-- .section end -->
       <div class="section">
-        <h1>05 Grundlæggende Indhold</h1>
+        <div class="section-heading">
+          <h2 class="heading -h2">05 Grundlæggende Indhold</h2>
+        </div>
         <div class="content-grid">
           <div class="content-cell">
             <img src="images/tema5.1.png" alt="" />
           </div>
           <div class="rounded-box">
-            <h2>Opgavens fokus:</h2>
+            <h3>Opgavens fokus:</h3>
             <p>
               Dette tema giver mig en grundlæggende indførsel i
               indholdsproduktion, herunder præproduktion, selve produktionen ,
@@ -373,7 +402,7 @@
         </div>
         <div class="content-grid">
           <div class="rounded-box">
-            <h2>Hvad jeg lærte:</h2>
+            <h3>Hvad jeg lærte:</h3>
             <ul>
               <li>
                 Filformater: webP, wav, mp4, mp3, jpeg, png, h.264. Lottiefiles 
@@ -413,7 +442,7 @@
           ></video>
         </div>
         <div class="rounded-box">
-          <h2>Min løsning og proces:</h2>
+          <h3>Min løsning og proces:</h3>
           <ul>
             <li>
               <a
@@ -488,6 +517,8 @@
         </div>
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer">ALIYE ESRA SALEBCI / KEA - 2024 1.semester</div>
+    </footer>
   </body>
 </html>
