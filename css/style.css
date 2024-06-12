@@ -1,129 +1,30 @@
 body {
-    background-color:rgb(36, 36, 36);
-    font-family: "BioRhyme", serif;
-      
-}
-
-.ul-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    list-style: none;
-    margin-top: 15px;
-    font-size: 25px;
-    font-weight:300;
-    color: rgb(242, 242, 242);
+  background-color:rgb(36, 36, 36);
+  font-family: "BioRhyme", serif; 
 }
 
 svg {
-    position: absolute;
-    margin-left: 49px;
-    margin-right: 49px;
-    width: 100%;
-    height: 2px; /* Adjust the height of the line */
-    top: 58.7%; /* Position it vertically centered */
+  position: absolute;
+  margin-left: 49px;
+  margin-right: 49px;
+  width: 100%;
+  height: 2px; 
+  top: 58.7%; 
 }
 
-.section {
-    margin: 50px 50px;
-    padding: 100px 90px;
-    border-radius: 40px;
-    background-color: rgb(242, 242, 242);
-    color: rgb(36, 36, 36);
-    /* this should control vertical spacing */
-
-    &.-index {
-        padding-block: 60px;
-    }
-
-    & + & {
-        margin-top: 40px;
-    }
-}
 
 img {
     display: block;
     max-width: 100%;
 }
 
-p{
+p {
     font-size: 1rem;
     font-family: "BioRhyme", serif;
 }
 
-video{
+video {
     display: block;
     max-width: 100%;
 }
-
-.rounded-box {
-    background-color: rgb(36, 36, 36);
-    color: rgb(242, 242, 242);
-    padding: 15px;
-    border-radius: 40px;
-    /*border: 4px solid rgb(51, 51, 51);*/
-    margin: 20px 0;
-
-    &:last-child {
-        margin-bottom: 0;
-    }
-  }
-
-  .rounded-box-2{
-    background-color: rgb(36, 36, 36);
-    color: rgb(242, 242, 242);
-    padding: 0px;
-    border-radius: 100px;
-    border: 4px solid rgb(242, 242, 242);
-    margin: 50px 50px;
-  }
-
-  .rounded-box-3{
-    background-color:rgb(242, 242, 242) ;
-    border: 4px solid rgb(36, 36, 36);
-    border-radius: 100px;
-    width: 160px;
-    padding: 10px;
-    text-align: center;
-    color: rgb(36, 36, 36);
-    justify-content: space-evenly;
- 
-  }
-
-  .rounded-box-4{
-    background-color: rgb(36, 36, 36);
-    color: rgb(242, 242, 242);
-    border-radius: 100px;
-    border: 4px solid rgb(242, 242, 242);
-    margin: 50px 50px;
-    height: 120px;
-    width: 350px;
-    margin-left: 130px;
-  } 
   
-
-  .portre{
-    border-radius: 80px;
-    width: 500px;
-    margin-left: 60px;
-  }
-
-  .email{
-    margin-left: 70px;
-    font-style: italic;
-    font-weight:bolder;
-  }
-
-.linkedin{
-    margin-left: 155px;
-    width: 50px;
-
-}
-  footer{
-    font-size: 1em;
-        font-family: "BioRhyme", serif;
-        font-style: italic;
-        font-weight: 300;
-        color:rgb(242, 242, 242) ;
-        margin: 50px 50px;
-  }
